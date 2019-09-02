@@ -1,0 +1,28 @@
+{
+  "name": "@pucerontriton/vcard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EVELETTE/vcard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EVELETTE/vcard/issues"
+  },
+  "homepage": "https://github.com/EVELETTE/vcard#readme",
+  "dependencies": {
+    "boxen": "^4.1.0",
+    "chalk": "^2.4.2",
+    "nodemon": "^1.19.1"
+  },
+  "bin": {
+    "rainbowcard": "./index.js"
+  }
+}
